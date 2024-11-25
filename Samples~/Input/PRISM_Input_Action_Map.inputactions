@@ -1,0 +1,34 @@
+{
+    "name": "PRISM_Input_Action_Map",
+    "maps": [
+        {
+            "name": "PRISM",
+            "id": "6f793cf7-86ab-4d9f-9644-2e1c43acaa09",
+            "actions": [
+                {
+                    "name": "PrismEnable",
+                    "type": "Button",
+                    "id": "1afb668c-29a3-4650-9a62-697aa6d61ac4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fe879f91-83de-48eb-851b-7e79fffa0d87",
+                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrismEnable",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

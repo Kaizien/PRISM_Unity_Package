@@ -1,0 +1,40 @@
+{
+	"name": "cs5678_2024sp.h_prism.g03",
+	"version": "0.1.1",
+	"displayName": "cs5678_2024sp.h_prism.g03",
+	"description": "This package implements the PRISM Interaction technique for the XRC framework. PRISM is a technique that allows users to interact and precisely place objects in a 3D environment.",
+	"unity": "2022.3",
+	"unityRelease": "7f1",
+	"documentationUrl": "https://cs5678-2024sp.github.io/h-prism-g-03",
+	"changelogUrl": "https://cs5678-2024sp.github.io/h-prism-g-03",
+	"licensesUrl": "https://cs5678-2024sp.github.io/h-prism-g-03",
+	"dependencies": {
+		"edu.cornell.xrc.core": "0.1.3",
+		"com.unity.xr.interaction.toolkit": "2.4.3",
+		"com.unity.inputsystem": "1.6.3"
+	},
+	"keywords": [
+		"XRC",
+		"XR Collaboratory"
+	],
+	"author": {
+		"name": "XR Collaboratory"
+	},
+	"samples": [
+		{
+			"displayName": "PRISM Scene",
+			"description": "The includes a sample showcasing the XRC PRISM implementation in a Unity scene.",
+			"path": "Samples~/Scenes"
+		},
+		{
+			"displayName": "PRISM Prefabs",
+			"description": "Prism prefabs contains materials and prefabs that the user can use or customize the PRISM technique's .",
+			"path": "Samples~/Prefabs"
+		},
+		{
+			"displayName": "PRISM Inputs",
+			"description": "Prism Input Action map is an input action set that users can use to activate the PRISM technique.",
+			"path": "Samples~/Input"
+		}
+	]
+}
